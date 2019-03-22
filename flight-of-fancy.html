@@ -1,0 +1,142 @@
+<!doctype html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+    <meta name="Description" content="An interactive spoken-word adventure by doublespeak games." />
+    <meta itemprop="image" property="og:image" content="images/AFOF-125.png">
+    <meta itemprop="name" property="og:title" content="A Flight of Fancy">
+
+    <title>A Flight of Fancy</title>
+    <style>
+
+      html, body {
+        padding: 0;
+        margin: 0;
+        font-size: 16px;
+        line-height: 1.5;
+        box-sizing: border-box;
+      }
+
+      html {
+        height: 100%;
+      }
+
+      body {
+        position: relative;
+        min-height: 100%;
+        padding-bottom: 60px;
+      }
+
+      .banner {
+        display: flex;
+        justify-content: center;
+        height: 200px;
+        background: radial-gradient(circle at 0 0, #FFF23A, #FDC60C 6.09%, #F3953C 16%, #F3903F 28.35%, #ED683C 58.76%, #E83E39 100%);
+        font-size: 32px;
+        color: white;
+        font-weight: bold;
+        box-shadow: 0px -10px 10px 10px rgba(173.0, 31, 36, 1)
+      }
+
+      #banner-logo {
+        height: 100%;
+      }
+
+      .content {
+        margin: 60px 20px;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .command {
+        position: relative;
+        display: inline-block;
+        font-family: 'Sanchez', serif;
+        line-height: 1.5;
+        font-style: italic;
+        margin: 0;
+        padding: 20px 0;
+        font-size: 1.5rem;
+      }
+
+      .command::before {
+        content: '\201C';
+        position: absolute;
+        top: 50%;
+        left: -2rem;
+        font-size: 6em;
+        z-index: -1;
+        line-height: 0;
+        opacity: 0.2;
+      }
+
+      .indent {
+        padding-left: 20px;
+      }
+
+      .game-title {
+        font-style: italic;
+      }
+
+      .info {
+        position: absolute;
+        display: flex;
+        align-items: center;
+        width: 100%;
+        bottom: 0;
+        height: 60px;
+        font-size: 32px;
+        color: white;
+        font-weight: bold;
+        opacity: 0.2;
+        border-top: 2px solid black;
+      }
+
+      .icon {
+        margin: 0 10px;
+        line-height: 0;
+      }
+
+      .icon > img,
+      .icon > svg {
+        height: 40px;
+      }
+
+      .logo { 
+        margin-right: auto; 
+      }
+
+      @media screen and (min-width: 400px) {
+        html, body {
+          font-size: 18px;
+        }
+      }
+
+      @media screen and (min-width: 768px) {
+        html, body {
+          font-size: 24px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header class='banner'>
+      <img id='banner-logo' src="images/AFOF-banner.svg" />
+    </header>
+    <section class='content'>
+      <div class='command'>
+        Hey Google... <br>
+        <span class='indent'>Talk to A Flight of Fancy</span>
+      </div>
+    </section>
+    <section class='content'>
+      <span><span class='indent game-title'>A Flight of Fancy</span> is an interactive spoken-word adventure for Google Assistant, harkening back to the days of Zork and the golden age of point-and-click adventure games. Explore unreal environments, solve puzzles, and unravel the mystery.</span>
+    </section>
+    <footer class='info'>
+      <a title="doublespeak games" class='logo icon' href='http://www.doublespeakgames.com' target="_blank"><svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 41.75 32.84375"><path d="m 18.024533,28.5722 c 2.532365,-2.243 5.064679,-4.4861 7.596993,-6.7292 4.907813,0 9.815625,0 14.723438,0 0,-6.8136 0,-13.6272 0,-20.4408 -12.976656,0 -25.953312,0 -38.9299676,0 0,6.8136 0,13.6272 0,20.4408 3.2917905,0 6.5835811,0 9.8753716,0 -0.643311,2.2431 -1.286622,4.4861 -1.9299604,6.7292 2.5323644,-2.243 5.0646784,-4.4861 7.5969924,-6.7292 0.999066,0 1.998131,0 2.997197,0 -0.643345,2.2431 -1.286691,4.4861 -1.930064,6.7292 z" style="stroke-width:2.0;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none"></path></svg></a>
+      <a title="Facebook" class="icon" href="https://www.facebook.com/doublespeakgames" target="_blank"><img class='social' src="images/fb.svg" alt="Facebook" /></a>
+		  <a title="Twitter" class="icon" href="https://twitter.com/continuities" target="_blank"><img class='social' src="images/twitter.svg" alt="Twitter" /></a>
+    </footer>
+  </body>
+</html>

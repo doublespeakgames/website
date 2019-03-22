@@ -85,6 +85,9 @@
 	#radum {
 		background-image: url(images/radum.png);
 	}
+  #flight-of-fancy {
+    background-image: url(images/AFOF-620.png);
+  }
 	
 	.gameListing:before {
 		display: block;
@@ -175,9 +178,18 @@
 			-ms-transform: translateY(0);
 			-o-transform: translateY(0);
 		}
-        	#social a:nth-child(2) {
-               		 margin-right: 5%;
-	        }
+
+    .gameDetails.coming-soon {
+      transform: translateY(0);
+			-webkit-transform: translateY(0);
+			-moz-transform: translateY(0);
+			-ms-transform: translateY(0);
+			-o-transform: translateY(0);
+    }
+
+    #social a:nth-child(2) {
+      margin-right: 5%;
+    }
 	}
 	</style>
 </head>
@@ -194,23 +206,34 @@
 	</section>
 	<section id="games">
 		<h2>- GAMES -</h2>
-		<a id='adarkroom' href="http://adarkroom.doublespeakgames.com" class="gameListing" title="A Dark Room">
+		<a id='adarkroom' href="http://adarkroom.doublespeakgames.com" class="gameListing" title="A Dark Room" target="_blank">
 			<div class="gameDetails">
 				<h3>A Dark Room</h3>
 				A minimalist text adventure.
 			</div>
 		</a><a
-		id='gridland' href="http://gridland.doublespeakgames.com" class="gameListing" title="Gridland">
+		id='gridland' href="http://gridland.doublespeakgames.com" class="gameListing" title="Gridland" target="_blank">
 			<div class="gameDetails">
 				<h3>Gridland</h3>
 				Match. Build. Survive.
 			</div>
 		</a><a
-		 id='radum' href="http://radum.doublespeakgames.com" class="gameListing" title="Rad&uuml;m">
+		 id='radum' href="http://radum.doublespeakgames.com" class="gameListing" title="Rad&uuml;m" target="_blank">
 			<div class="gameDetails">
 				<h3>Rad&uuml;m</h3>
-                                An abstract strategy game for two.
+        An abstract strategy game for two.
 			</div>
+    </a><a
+		 id='flight-of-fancy' class="gameListing" title="A Flight of Fancy" target="_blank">
+      
+      <!--<div class="gameDetails">
+				<h3>A Flight of Fancy</h3>
+        An interactive spoken-word adventure.
+      </div>-->
+
+      <div class="gameDetails coming-soon">
+        <h3>Coming Soon!</h3>
+      </div>
 		</a>
 		<div style="clear:both"></div>
 	</section>
