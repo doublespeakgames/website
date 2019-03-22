@@ -1,0 +1,54 @@
+==================================================================
+https://keybase.io/continuities
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://www.doublespeakgames.com
+  * I am continuities (https://keybase.io/continuities) on keybase.
+  * I have a public key ASCScsIIi3ldaMT2LlugWkPO_vSOSKWyFctrMWucn796Vgo
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0101cf5d00652d41c5279b056f49e991c0751c0fb3c86983ec5996739aea5f4718c00a",
+            "host": "keybase.io",
+            "kid": "01209272c2088b795d68c4f62e5ba05a43cefef48e48a5b215cb6b316b9c9fbf7a560a",
+            "uid": "d17436bb838176fa2c60a3520a035f00",
+            "username": "continuities"
+        },
+        "service": {
+            "hostname": "www.doublespeakgames.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.18"
+    },
+    "ctime": 1487012058,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1487012016,
+        "hash": "6e32bbcbaf6c5419c39f496b73a5dc9ddcaa64d7d8bdeae476d4080d3f2220bfb1ad3661425a0a6fbab57b73341d3246112fe24ada55e99e414717c88b29f87a",
+        "seqno": 885302
+    },
+    "prev": "cc70a686e0355e69fe18beaa6c857171c6d3a915c11a201f539257f7b0e4e56f",
+    "seqno": 16,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgknLCCIt5XWjE9i5boFpDzv70jkilshXLazFrnJ+/elYKp3BheWxvYWTFAwR7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTAxY2Y1ZDAwNjUyZDQxYzUyNzliMDU2ZjQ5ZTk5MWMwNzUxYzBmYjNjODY5ODNlYzU5OTY3MzlhZWE1ZjQ3MThjMDBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwOTI3MmMyMDg4Yjc5NWQ2OGM0ZjYyZTViYTA1YTQzY2VmZWY0OGU0OGE1YjIxNWNiNmIzMTZiOWM5ZmJmN2E1NjBhIiwidWlkIjoiZDE3NDM2YmI4MzgxNzZmYTJjNjBhMzUyMGEwMzVmMDAiLCJ1c2VybmFtZSI6ImNvbnRpbnVpdGllcyJ9LCJzZXJ2aWNlIjp7Imhvc3RuYW1lIjoid3d3LmRvdWJsZXNwZWFrZ2FtZXMuY29tIiwicHJvdG9jb2wiOiJodHRwOiJ9LCJ0eXBlIjoid2ViX3NlcnZpY2VfYmluZGluZyIsInZlcnNpb24iOjF9LCJjbGllbnQiOnsibmFtZSI6ImtleWJhc2UuaW8gZ28gY2xpZW50IiwidmVyc2lvbiI6IjEuMC4xOCJ9LCJjdGltZSI6MTQ4NzAxMjA1OCwiZXhwaXJlX2luIjo1MDQ1NzYwMDAsIm1lcmtsZV9yb290Ijp7ImN0aW1lIjoxNDg3MDEyMDE2LCJoYXNoIjoiNmUzMmJiY2JhZjZjNTQxOWMzOWY0OTZiNzNhNWRjOWRkY2FhNjRkN2Q4YmRlYWU0NzZkNDA4MGQzZjIyMjBiZmIxYWQzNjYxNDI1YTBhNmZiYWI1N2I3MzM0MWQzMjQ2MTEyZmUyNGFkYTU1ZTk5ZTQxNDcxN2M4OGIyOWY4N2EiLCJzZXFubyI6ODg1MzAyfSwicHJldiI6ImNjNzBhNjg2ZTAzNTVlNjlmZTE4YmVhYTZjODU3MTcxYzZkM2E5MTVjMTFhMjAxZjUzOTI1N2Y3YjBlNGU1NmYiLCJzZXFubyI6MTYsInRhZyI6InNpZ25hdHVyZSJ9o3NpZ8RAeJUJ1xj3j4EbmB6/2IA1rSrQPHcKUkBcu1XaKabswABPKu89rnmZr4HDpsWelG32bHCsH5i5QJDzYCJUMv/mAqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIDC+H7LoMfkdb+MKYdCdRhhc469bM1DJJDxZxva0pa/4o3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/continuities
+
+==================================================================
